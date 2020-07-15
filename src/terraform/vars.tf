@@ -27,7 +27,7 @@ variable "lambda_timeout" {
 }
 
 variable "lambda_dbinstances" { 
-  default = "eventstore-db,kong-db"
+  default = "my-sql-server-db,my-postgres-db"
 }
 
 variable "cloudwatch_name" { 
